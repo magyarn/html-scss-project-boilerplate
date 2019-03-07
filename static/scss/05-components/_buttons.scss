@@ -1,0 +1,24 @@
+// This file contains all button styles
+
+// Example of a base class that is only used
+// for being extended in other appropriate classes.
+// Anywhere that this class is extended, that class
+// will also have the following properties.
+%btn-base {
+  border-radius: $border-radius;
+  background: transparent;
+  font-size: 1rem;
+  padding: .5rem .75rem;
+  outline: none;
+}
+
+.btn-blue {
+  // Extend another class like this
+  @extend %btn-base;
+  background-color: $blue;
+  color: $white;
+  // This is how you write a media query with a breakpoint variable
+  @media #{$mq--xl} {
+    font-weight: bold;
+  }
+}

@@ -1,0 +1,11 @@
+// Reduce the number of places that you specify colors, 
+// border-radii, box-shadow, etc by converting them to
+// variables. Then use the variables everywhere else.
+// This makes your code easier to change/maintain.
+
+$blue: blue;
+$grey--light: lightgrey;
+$red: red;
+$white: #FFF;
+
+$border-radius: 3px;

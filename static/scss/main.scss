@@ -1,0 +1,33 @@
+/* UTILITY FILES */
+@import "01-utilities/variables";
+@import "01-utilities/mixins";
+/* END UTILITY FILES */
+
+/* VENDOR FILES */
+@import "02-vendors/normalize";
+/* END VENDOR FILES */
+
+/* BASE FILES */
+@import "03-base/base";
+@import "03-base/fonts";
+@import "03-base/typography";
+@import "03-base/elements";
+/* END BASE FILES */
+
+/* LAYOUT FILES */
+@import "04-layout/breakpoints";
+@import "04-layout/wrappers";
+/* END LAYOUT FILES */
+
+/* COMPONENT FILES */
+@import "05-components/buttons";
+@import "05-components/welcome-message";
+/* END COMPONENT FILES */ 
+
+/* PAGE FILES */
+@import "06-pages/index";
+/* END PAGE FILES */
+
+/* THEME FILES */
+
+/* END THEME FILES */

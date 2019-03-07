@@ -1,0 +1,12 @@
+// Common breakpoints/media queries to be used 
+// elswhere in your pages and components. You can only 
+// use these in files that are imported AFTER _breakpoints.scss
+// in main.scss
+
+$mq--xs: "only screen and (max-width: 500px)";
+$mq--sm: "only screen and (min-width: 501px) and (max-width: 640px)";
+$mq--md: "only screen and (min-width: 641px) and (max-width: 850px)";
+$mq--lg: "only screen and (min-width: 851px) and (max-width: 1024px)";
+$mq--xl: "only screen and (min-width: 1025px)";
+
+// Check out _buttons.scss to see the $mq--lg media query in action!

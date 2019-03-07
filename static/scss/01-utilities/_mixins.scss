@@ -1,0 +1,11 @@
+// A mixin is a reusable function you can call elsewhere 
+// in your scss files. If you notice yourself repeating
+// a certain style, or a set of styles, a lot then it/they
+// might be a good fit for a mixin!
+
+// Check out _welcome-message.scss to see this mixin in action!
+@mixin flex($justify-content, $align-items) {
+  display: flex;
+  justify-content: $justify-content;
+  align-items: $align-items;
+}

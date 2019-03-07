@@ -1,0 +1,16 @@
+// Use this file to specify any global style rules.
+// I also put any common margin or padding rules here.
+
+* {
+  box-sizing: border-box;
+}
+
+.margin-0 { margin: 0; }
+.margin-y--1 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.margin-y--2 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}

@@ -1,0 +1,8 @@
+.welcome-message {
+  // This is how you use a mixin:
+  @include flex(center, center);
+  margin: 1rem;
+  padding: 2rem;
+  background: $grey--light;
+  border-radius: $border-radius;
+}
